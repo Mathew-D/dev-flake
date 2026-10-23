@@ -34,8 +34,8 @@
             libxkbcommon
             libva
             pkg-config
-            xorg.libXdmcp
-            xorg.libXext
+            libXdmcp
+            libXext
           ];
 
           LD_LIBRARY_PATH = pkgs.lib.makeLibraryPath [
