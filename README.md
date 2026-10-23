@@ -18,6 +18,10 @@ cargo run
 ```bash
 nix develop github:mathew-d/dev-flake
 ```
+or 
+```bash
+nix develop github:mathew-d/dev-flake --no-write-lock-file
+```
 
 Then navigate to any Rust project and run:
 ```bash
