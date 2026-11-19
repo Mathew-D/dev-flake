@@ -37,7 +37,9 @@ nix develop --command cargo run
 
 - Rust 1.99.1 with rust-analyzer
 - GUI libraries: dbus, libGL, vulkan-loader, wayland, libx11, libxcb, libxcursor, libxi, libxrandr, libxkbcommon, libva
-- Build tools: pkg-config
+- Build tools: pkg-config, glibc
+- Command runner: just
+- JavaScript runtime: nodejs
 
 ## Example with NoteCraft
 

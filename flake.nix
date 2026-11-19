@@ -36,6 +36,9 @@
             pkg-config
             libXdmcp
             libXext
+            glibc
+            just
+            nodejs
           ];
 
           LD_LIBRARY_PATH = pkgs.lib.makeLibraryPath [
