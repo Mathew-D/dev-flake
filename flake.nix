@@ -39,6 +39,7 @@
             glibc
             just
             nodejs
+            clang-tools
           ];
 
           LD_LIBRARY_PATH = pkgs.lib.makeLibraryPath [

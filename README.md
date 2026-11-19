@@ -40,6 +40,7 @@ nix develop --command cargo run
 - Build tools: pkg-config, glibc
 - Command runner: just
 - JavaScript runtime: nodejs
+- C/C++ tooling: clang-tools (clang-format)
 
 ## Example with NoteCraft
 
